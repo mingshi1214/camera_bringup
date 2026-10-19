@@ -1,0 +1,28 @@
+cameras:
+  - type: Realsense_d405
+    id: wrist_camera
+    arm: left
+    hardware_id: 230322271562
+    fps: 60
+    depth: true
+  
+  - type: Realsense_d405
+    id: wrist_camera
+    arm: right
+    hardware_id: 230322270462
+    fps: 60
+    depth: true
+
+  # - type: Realsense_d455
+  #   id: top_camera
+  #   arm: null
+  #   hardware_id: 244422300930
+  #   fps: 30
+  #   depth: true
+
+  # - type: Realsense_d456
+  #   id: head_camera
+  #   arm: null
+  #   hardware_id: 336222301245
+  #   fps: 15
+  #   depth: true
